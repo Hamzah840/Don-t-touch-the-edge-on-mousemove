@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* position: relative; */
+    background-color: #021e2b;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #00fff2;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: 0.1s;
+    box-shadow: 0 0 10px #00fff217,
+                0 0 30px #00fff2e6,
+                0 0 50px #00fff2b2,
+                0 0 70px #00fff294,
+                0 0 90px #00fff23c;
+}
